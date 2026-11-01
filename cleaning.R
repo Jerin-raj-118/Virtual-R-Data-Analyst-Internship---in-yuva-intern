@@ -14,10 +14,10 @@ library(dplyr)
 
 filter(mtcars, cyl == 8)
 
-df <- read.csv("C:\\Users\\USER\\OneDrive\\Documents\\Rstudio\\Airline\\train.csv\\train.csv")
+df <- read.csv("")
 # Import the original dataset
 raw_data <- read.csv(
-  "C:\\Users\\USER\\OneDrive\\Documents\\Rstudio\\Airline\\train.csv\\train.csv",
+  "",
   stringsAsFactors = FALSE
 )
 
