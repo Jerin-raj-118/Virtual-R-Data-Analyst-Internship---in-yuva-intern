@@ -1,10 +1,4 @@
-setwd("C:\\Users\\USER\\OneDrive\\Documents\\Rstudio\\Airline\\Week3_Statistical_Modeling")
-dir.exists("C:\\Users\\USER\\OneDrive\\Documents\\Rstudio\\Airline")
-dir.create(
-  "C:\\Users\\USER\\OneDrive\\Documents\\Rstudio\\Airline\\Week3_Statistical_Modeling",
-  showWarnings = FALSE
-)
-setwd("C:\\Users\\USER\\OneDrive\\Documents\\Rstudio\\Airline\\Week3_Statistical_Modeling")
+
 
 dir.create("Dataset")
 dir.create("Graphs")
@@ -13,37 +7,36 @@ dir.create("Screenshots")
 getwd()
 
 
-dir.exists("C:\\Users\\USER\\OneDrive\\Documents\\Rstudio\\Airline\\airline_cleaned_dataset.csv")
+dir.exists("")
 getwd()
-dir.exists("C:/Users/USER/OneDrive/Documents/Rstudio/Airline/Week3_Statistical_Modeling")
-setwd("C:/Users/USER/OneDrive/Documents/Rstudio/Airline/Week3_Statistical_Modeling")
+dir.exists("")
+setwd("")
 
 getwd()
 # Check whether the Week 3 folder exists
-dir.exists("C:/Users/USER/OneDrive/Documents/Rstudio/Airline/Week3_Statistical_Modeling")
+dir.exists(")
 
 # Set working directory
-setwd("C:/Users/USER/OneDrive/Documents/Rstudio/Airline/Week3_Statistical_Modeling")
+setwd("C")
 
 # Confirm working directory
 getwd()
 list.files()
 list.files("Dataset")
 list.files(
-  "C:/Users/USER/OneDrive/Documents/Rstudio/Airline",
+  "",
   recursive = TRUE,
   pattern = "\\.csv$"
 )
 file.copy(
-  "C:/Users/USER/OneDrive/Documents/Rstudio/Airline/airline_cleaned_dataset.csv",
-  "Dataset/airline_cleaned_dataset.csv",
+  v",
   overwrite = TRUE
 )
 list.files("Dataset")
 library(ggplot2)
 library(dplyr)
 
-raw_data <- read.csv("Dataset/airline_cleaned_dataset.csv")
+raw_data <- read.csv("Dataset\")
 
 # Check dataset dimensions
 dim(raw_data)
